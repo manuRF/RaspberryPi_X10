@@ -17,7 +17,7 @@
 #define A3OFF   "0110000000101000"
 #define ABRIGHT "0110000010001000"
 #define ADIM    "0110000010011000"
-#define PORT	104
+#define PORT	8080
 
 bool movingUP;
 bool movingDOWN;
