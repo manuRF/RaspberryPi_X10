@@ -1,11 +1,5 @@
 /*
 	Manuel Rodriguez 27/07/2016
-  Instalacion general: KODI (OSMC)
-  Se han añadido las librerias wiringPi y lirc.
-  persianas funciona como un proceso arrancado en systemctl y
-  que espera conexiones en un socket de red puerto 104 y señales
-  IR que provienen de un mando EUSKALTEL para controlar por RF con
-  (protocolo X10) a las dos persianas del SALON 
 */
 #ifndef _x10tx_h
 #define _x10tx_h
