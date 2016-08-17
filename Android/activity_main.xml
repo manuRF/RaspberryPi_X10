@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="horizontal"
+    android:baselineAligned="false">
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+        <ToggleButton
+            android:id="@+id/LucesSofa"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:textOff="@string/luces_sofa_apagadas"
+            android:textOn="@string/luces_sofa_encendidas"
+            android:text= "@string/luces_sofa_apagadas"
+            android:textSize="@dimen/abc_action_bar_content_inset_material" />
+
+        <ToggleButton
+            android:id="@+id/LucesEntrada"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:textOff="@string/luces_entrada_apagadas"
+            android:textOn="@string/luces_entrada_encendidas"
+            android:text="@string/luces_entrada_apagadas"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+
+        <Button
+            android:id="@+id/SubePersianaDerecha"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/subir_persiana_izquierda"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+
+        <Button
+            android:id="@+id/BajaPersianaDerecha"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/bajar_persiana_izquierda"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:layout_weight="8"
+        android:orientation="vertical" >
+        <ToggleButton
+            android:id="@+id/LucesTele"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:checked="false"
+            android:text="@string/luces_tele_apagadas"
+            android:textOff="@string/luces_tele_apagadas"
+            android:textOn="@string/luces_tele_encendidas"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+        <ToggleButton
+            android:id="@+id/LucesMueble"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:checked="false"
+            android:text="@string/luces_mueble_apagadas"
+            android:textOff="@string/luces_mueble_apagadas"
+            android:textOn="@string/luces_mueble_encendidas"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+
+        <Button
+            android:id="@+id/SubePersianaIzquierda"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text = "@string/subir_persiana_derecha"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+
+        <Button
+            android:id="@+id/BajaPersianaIzquierda"
+            android:layout_width="wrap_content"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:gravity="left|center_vertical"
+            android:text="@string/bajar_persiana_derecha"
+            android:textSize="@dimen/abc_action_bar_content_inset_material"/>
+
+    </LinearLayout>
+
+</LinearLayout>

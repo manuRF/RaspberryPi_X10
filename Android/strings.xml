@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+<string name="app_name">Salon</string>
+<string name="action_settings">Ajustes</string>
+<string name="pref_hostip">Direccion IP</string>
+<string name="pref_port">Puerto TCP</string>
+<string name="pref_user_profile">Configuracion de la RED</string>
+<string name="subir_persiana_derecha">SUBIR PERSIANA \u0020 LATERAL</string>
+<string name="bajar_persiana_derecha">BAJAR PERSIANA \u0020 LATERAL</string>
+<string name="subir_persiana_izquierda">SUBIR PERSIANA \u0020 FRONTAL</string>
+<string name="bajar_persiana_izquierda">BAJAR PERSIANA \u0020 FRONTAL</string>
+<string name="luces_sofa_encendidas">LUCES SOFA \u0020 ENCENDIDAS</string>
+<string name="luces_entrada_encendidas">LUCES ENTRADA \u0020 ENCENDIDAS</string>
+<string name="luces_mueble_encendidas">LUCES MUEBLE \u0020 ENCENDIDAS</string>
+<string name="luces_tele_encendidas">LUCES TELE \u0020 ENCENDIDAS</string>
+<string name="luces_sofa_apagadas">LUCES SOFA \u0020 APAGADAS</string>
+<string name="luces_entrada_apagadas">LUCES ENTRADA \u0020 APAGADAS</string>
+<string name="luces_mueble_apagadas">LUCES MUEBLE \u0020 APAGADAS</string>
+<string name="luces_tele_apagadas">LUCES TELE \u0020 APAGADAS</string>
+
+</resources>
