@@ -1,6 +1,7 @@
 # IR2X10
-Rasberry pi gpio control via IR remote (using wiring pi and lirc).
-Android socket client to connect to Raspberry pi gpio Android server.
+Rasberry pi gpio control.
+Via IR remote (using wiring pi and lirc).
+Via Android socket client to connect to Raspberry pi gpio Android server.
 The raspberry has an IR diode on PIN GPIO02 and one RF433Mhz transmiter on PIN03.
 Receiving RF signals fron a RF remote (Euskaltel brand, but you can use your 
 own remote with proper lirc.conf file) you can control two motorized blinds
